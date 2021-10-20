@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    letter-spacing:1px;
+    line-height: 1.8em;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image:url("./images/andras-vas-Bd7gNnWJBkU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:right;
+}
+header{
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    color:black;
+    padding:10px;
+    background-color:white;
+    font-weight:900;
+}
+.container{
+    background-color: darkred;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    margin-bottom:30px;
+}
+.container li{
+    display:inline;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.Skills,.Education,.Hobbies,.Profiles{
+    text-align: center;
+    font-size: large;
+    width:29%;
+    background-color:black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    max-height: 600px;
+    overflow: hidden;
+}
+.skillsheader{
+    padding-bottom: 12px;
+}
+.Skills li{
+    list-style-type: none;
+    padding-bottom: 15px;
+    letter-spacing:1px;
+}
+.Hobbies li{
+    list-style-type: none;
+}
+.Skills:hover,.Education:hover,.Hobbies:hover,.Profiles:hover{
+    box-shadow: 1px 1px 1px 1px red;
+    --moz-box-shadow:    2px 2px 4px 4px red;
+    -webkit-box-shadow: 2px 2px 4px 4px red;
+    font-size: 19px;
+}
+.Contact a,.Profiles a{
+    padding: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    border-bottom: 2px solid orange;
+    color: orange;
+    padding-bottom: 23px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 32px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.profilesheader{
+    font-size: 28px;
+}
+footer h2{
+    text-decoration: none;
+    font-weight: 600;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Profiles{
+    width: fit-content;
+    background-color:goldenrod;
+    color:white;
+}
+.Profiles:hover{
+    box-shadow: 1px 1px 1px 1px white;
+    --moz-box-shadow: 2px 2px 4px 4px white;
+    -webkit-box-shadow: 2px 2px 4px 4px white;
+}
+@media(max-width:850px){
+    .Skills,.Education,.Hobbies,.Profiles{
+        width: fit-content;
+    }
+    .Profiles img,.Contact img{
+        width: 30px;
+    }
+    nav a:hover{
+        padding-bottom: 1px;
+    }
+    .container{
+        text-align: center;
+    }
+}
+
+
